@@ -1,13 +1,13 @@
 {
-  "name": "bitbucket-server",
+  "name": "bitbucket-server-rest",
   "version": "1.0.0",
-  "description": "Node client to access Bitbucket server api",
-  "main": "index.js",
+  "description": "Node client to access Bitbucket server REST api",
+  "main": "lib/bitbucket.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Terry Moore II",
+  "license": "MIT",
   "dependencies": {
     "deep-extend": "^0.4.1",
     "request": "^2.67.0"
