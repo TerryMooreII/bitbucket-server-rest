@@ -2,9 +2,9 @@
 
 var Bitbucket = require('./lib/bitbucket');
 
-var bitbucket = new Bitbucket({user_name:'terry.moore', password:'Deadhead'});
+var bitbucket = new Bitbucket({user_name:'terry.moore', password:'Deadhead', rest_base:'https://code.dudesoln.com'});
 
-bitbucket.get('projects/repos/pull-requests/', {projectKey:'DSI_WEB', repositorySlug: 'dudecontrols', pullRequestId: 142}, function(err, data, response){
+bitbucket.get('projects', function(err, data, response){
   if (err){
     console.log(err)
   }
