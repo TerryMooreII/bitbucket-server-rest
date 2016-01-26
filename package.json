@@ -1,0 +1,15 @@
+{
+  "name": "bitbucket-server",
+  "version": "1.0.0",
+  "description": "Node client to access Bitbucket server api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deep-extend": "^0.4.1",
+    "request": "^2.67.0"
+  }
+}
