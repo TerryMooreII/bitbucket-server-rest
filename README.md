@@ -59,7 +59,6 @@ Here is the full list of endpoint mappings
 
 path parameter | Bitbucket endpoint
 -------------------------------------
-
 admin/users/credentials | admin/users/credentials
 admin/users/captcha | admin/users/captcha
 admin/groups | admin/groups
@@ -88,13 +87,7 @@ groups | groups
 hooks/avatar | hooks/{hookKey}/avatar
 logs/rootLogger | logs/rootLogger
 logs/rootLogger/ | logs/rootLogger/{levelName}
-
-/*Unsupported*/
-logs/logger/{levelName} | logs/logger/{loggerName}/{levelName}
-logs/logger/{loggerName} | logs/logger/{loggerName}
-/* End Unsupported*/
-
-markup/preview | markup/preview
+markup/preview  | markup/preview
 profile/recent/repos | profile/recent/repos
 projects | projects
 projects/ | projects/{projectKey}
@@ -167,3 +160,8 @@ users/credentials | users/credentials
 users/ | users/{userSlug}
 users/avatar.png | users/{userSlug}/avatar.png
 users/settings | users/{userSlug}/settings
+
+/*Unsupported*/
+logs/logger/{levelName} | logs/logger/{loggerName}/{levelName}
+logs/logger/{loggerName} | logs/logger/{loggerName}
+/* End Unsupported*/
