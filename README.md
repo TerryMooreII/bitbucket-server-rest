@@ -46,8 +46,8 @@ bitbucket.delete(path, params, callback);
 The callback parameters are as followed
 
 `error` Is the error object, the http status code or undefined.  
-`data` Is the data value from the server.
-`response` is the full http response from the server.
+`data` Is the data value from the server.  
+`response` is the full http response from the server.  
 
 REST Api
 -----------------
