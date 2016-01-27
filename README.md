@@ -5,9 +5,11 @@ Supports all Bitbucket Server [REST api calls](https://developer.atlassian.com/s
 
 Installation
 -----------------
+**Not currently published**
 ```bash
 npm install bitbucket-server-rest
 ```
+
 
 Authentication and initialization
 ------------------------------------
@@ -166,6 +168,11 @@ users/settings | users/{userSlug}/settings
 logs/logger/{levelName} | logs/logger/{loggerName}/{levelName}
 
 logs/logger/{loggerName} | logs/logger/{loggerName}
+
+
+Todo
+---------
+- Added Tests
 
 
 Thanks
