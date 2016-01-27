@@ -170,7 +170,7 @@ logs/logger/{loggerName} | logs/logger/{loggerName}
 
 Thanks
 -------------
-Props to the (node-twitter)[https://github.com/desmondmorris/node-twitter] package for inspiration.
+Props to the [node-twitter](https://github.com/desmondmorris/node-twitter) package for inspiration.
 
 
 License
