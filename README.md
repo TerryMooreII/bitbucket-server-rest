@@ -1,4 +1,5 @@
 Bitbucket Server REST Api client
+===================================
 
 Supports all Bitbucket Server [REST api calls](https://developer.atlassian.com/static/rest/bitbucket-server/4.3.1/bitbucket-rest.html).
 
@@ -57,8 +58,9 @@ Pass both the url parameters and valid query parameters in the params object.  W
 
 Here is the full list of endpoint mappings
 
-path parameter | Bitbucket endpoint
--------------------------------------
+
+ path parameter | Bitbucket endpoint
+----------------|---------------------
 admin/users/credentials | admin/users/credentials
 admin/users/captcha | admin/users/captcha
 admin/groups | admin/groups
@@ -116,9 +118,7 @@ projects/repos/commits/diff | projects/{projectKey}/repos/{repositorySlug}/commi
 projects/repos/commits/diff/ | projects/{projectKey}/repos/{repositorySlug}/commits/{commitId}/diff/{path}
 projects/repos/commits/watch | projects/{projectKey}/repos/{repositorySlug}/commits/{commitId}/watch
 projects/repos/compare/commits | projects/{projectKey}/repos/{repositorySlug}/compare/commits
-
 projects/repos/compare/diff | projects/{projectKey}/repos/{repositorySlug}/compare/diff{path}
-
 projects/repos/compare/changes | projects/{projectKey}/repos/{repositorySlug}/compare/changes
 projects/repos/diff | projects/{projectKey}/repos/{repositorySlug}/diff
 projects/repos/diff/ | projects/{projectKey}/repos/{repositorySlug}/diff/{path}
@@ -161,7 +161,9 @@ users/ | users/{userSlug}
 users/avatar.png | users/{userSlug}/avatar.png
 users/settings | users/{userSlug}/settings
 
-/*Unsupported*/
+**Unsupported**
+
 logs/logger/{levelName} | logs/logger/{loggerName}/{levelName}
+
 logs/logger/{loggerName} | logs/logger/{loggerName}
-/* End Unsupported*/
+
