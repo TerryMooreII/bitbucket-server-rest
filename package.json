@@ -8,6 +8,7 @@
   },
   "author": "Terry Moore II",
   "license": "MIT",
+  "keywords":["git", "bitbucket", "stash", "rest", "api", "bitbucket server"],
   "dependencies": {
     "deep-extend": "^0.4.1",
     "request": "^2.67.0"
